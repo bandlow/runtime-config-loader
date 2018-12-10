@@ -1,0 +1,13 @@
+{
+	"$schema": "../node_modules/@angular-devkit/schematics/collection-schema.json",
+	"schematics": {
+		"ng-add": {
+			"description": "Import the RuntimeConfigLoader Module",
+			"factory": "./ng-add/index"
+		},
+		"schematics": {
+			"description": "A blank schematic.",
+			"factory": "./schematics/index#schematics"
+		}
+	}
+}
